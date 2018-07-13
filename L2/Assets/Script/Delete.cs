@@ -18,10 +18,10 @@ public class Delete : MonoBehaviour {
         GameObject target;
         try
         {
-
+            GameObject.FindWithTag()
             ///여기 위는 건드리지 마세요 ////////////////////////////////////////////////////////////////////////////////////
 
-            // target에 필드에 나와있는 오브젝트를 할당하는 코드를 작성해보세요(tag를 활용해서 오브젝트를 찾아보세요)
+            // target에 필드에 나와있는 오브젝트를 할당하는 코드를 작성해보세요(오브젝트의 이름을 활용해서 오브젝트를 찾아보세요)
 
             // 적절한 할당 코드를 작성하면 아래의 주석을 해제해보세요.
             //        target.SetActive(false); return;

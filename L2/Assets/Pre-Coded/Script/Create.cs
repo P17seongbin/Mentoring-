@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+// 건드리지 마세요!
+/// </summary>
 public class Create : MonoBehaviour {
     //버튼을 누르면 주어진 prefab에서 새로운 Object를 생성해주고 태그를 달아준다.
     public Text Errorlog;
